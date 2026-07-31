@@ -1,7 +1,24 @@
 aid: moveha
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moveha.png
 name: Moveha
-description: Moveha is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Moveha is a student-housing and long-term rental platform for the United States,
+  built to help college students and relocating professionals find, reserve, and secure off-campus
+  housing before they arrive in the country. Founded by former international students and backed by
+  500 Global, Moveha positions itself as an "Airbnb for long-term rentals" — a faster, more
+  transparent way to browse verified properties, reserve remotely, share rooms, or list a property
+  for lease, with identity-verified users. As of this enrichment pass Moveha publishes no public API
+  or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/moveha/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- Student Housing
+- Rental Marketplace
+- Relocation
+- Property
+- Housing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,10 @@ maintainers:
 common:
 - type: Website
   url: https://moveha.com
+- type: LLMsTxt
+  url: llms/moveha-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

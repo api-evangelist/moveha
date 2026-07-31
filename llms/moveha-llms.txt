@@ -1,0 +1,12 @@
+# Moveha
+
+> Moveha is a student-housing and long-term rental platform for the United States, helping college students and relocating professionals find, reserve, and secure off-campus housing before they arrive. Backed by 500 Global. As of this enrichment pass Moveha publishes no public API or developer surface.
+
+## About
+- [Moveha website](https://moveha.com): Student housing and long-term rental marketplace ("Airbnb for long-term rentals").
+
+## Notes
+- generated: '2026-07-20'
+- method: generated
+- source: apis.yml
+- No public API, OpenAPI, developer portal, or /.well-known surface was found during enrichment (targeted developer-docs search returned no Moveha results; site did not resolve for /.well-known probing).
